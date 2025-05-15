@@ -81,7 +81,7 @@
   }
 
   .price-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: start;
     gap: 15px;
@@ -109,7 +109,7 @@
   }
 
   .price-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: start;
     gap: 15px;
@@ -154,7 +154,7 @@
 
 
   .price-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: start;
     gap: 15px;
