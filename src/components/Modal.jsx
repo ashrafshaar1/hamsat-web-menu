@@ -23,7 +23,7 @@ const Modal = ({
 					className='close-modal'
 					onClick={onClose}
 				>
-					&times;
+					X
 				</button>
 				<img
 					id='modal-image'
