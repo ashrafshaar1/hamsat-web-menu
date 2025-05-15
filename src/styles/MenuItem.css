@@ -86,12 +86,20 @@
     align-items: start;
     gap: 15px;
   }
+
+  .menu-item:hover {
+    transform: translateX(0px);
+  }
 }
 
 @media (max-width: 500px) {
 
   .menu-item-img {
     height: 120px;
+  }
+
+  .menu-item:hover {
+    transform: translateX(0px);
   }
 
 }
@@ -106,6 +114,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
     flex-wrap: wrap;
+  }
+
+  .menu-item:hover {
+    transform: translateX(0px);
   }
 
   .price-container {
@@ -146,6 +158,9 @@
 
 @media (max-width: 350px) {
 
+  .menu-item:hover {
+    transform: translateX(0px);
+  }
 
   .price {
     font-size: 13px;
