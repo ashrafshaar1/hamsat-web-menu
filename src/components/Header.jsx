@@ -11,7 +11,7 @@ const Header = () => {
   // Detect mobile view
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 1200);
     };
     
     handleResize();

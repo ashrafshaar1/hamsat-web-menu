@@ -3,6 +3,9 @@ header {
   padding: 1rem 0 2rem;
   border-bottom: 1px solid var(--gold);
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo-image {
@@ -160,15 +163,7 @@ nav a:hover::after {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
-  .logo-image {
-    max-height: 80px;
-  }
-  
-  .social-icons {
-    gap: 1rem;
-  }
-  
+@media (max-width: 1200px) {
   nav {
     flex-direction: column;
     gap: 0.5rem;
@@ -190,6 +185,16 @@ nav a:hover::after {
     max-height: 300px;
     opacity: 1;
     visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    max-height: 80px;
+  }
+  
+  .social-icons {
+    gap: 1rem;
   }
 }
 
