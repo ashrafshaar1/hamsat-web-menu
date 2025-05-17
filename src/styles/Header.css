@@ -163,7 +163,7 @@ nav a:hover::after {
 }
 
 /* Mobile Styles */
-@media (max-width: 1200px) {
+@media (max-width: 5000px) {
   nav {
     flex-direction: column;
     gap: 0.5rem;
