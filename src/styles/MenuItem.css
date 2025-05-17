@@ -61,44 +61,11 @@
 .drink-item .menu-item-img {
   width: 80px;
   height: 80px;
-  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
-<<<<<<< HEAD
 .drink-item .menu-item-content {
   flex: 1;
-=======
-.arabic-title {
-  font-family: "Almarai", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.4;
-  color: var(--gold);
-}
-
-.english-text {
-  font-size: 13px;
-}
-
-.arabic-text {
-  font-size: 13px;
-}
-
-/* Square layout (image on right) */
-.square-layout .menu-item {
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.square-layout .menu-item-img {
-  width: 50px;
-  height: 50px;
-  margin-right: 1rem;
-}
-
-.square-layout .menu-item-content {
->>>>>>> 1c390feddcc2406ba2f577bb05ad5f564e9e2848
   display: flex;
   flex-direction: column;
 }
