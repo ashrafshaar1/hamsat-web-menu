@@ -405,7 +405,7 @@ export const menuData = {
     ]
   },
   freshjuice: {
-    title: "Cold Beverages | مشروبات باردة",
+    title: "Fresh Juice | عصائر طازجة",
     description: {
       english: "Where science meets sublime flavor.",
       arabic: "حيث يلتقي العلم بالنكهة السامية"
