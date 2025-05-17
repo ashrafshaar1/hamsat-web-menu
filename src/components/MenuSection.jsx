@@ -3,22 +3,19 @@ import MenuItem from './MenuItem';
 import '../styles/MenuSection.css';
 
 const MenuSection = ({ section, title, description, items, openModal }) => {
-  const squareLayoutSections = [
-    'freshjuice', 
-    'milkshake', 
-    'hamsatcocktails', 
-    'coffeedrinks', 
-    'softdrinks', 
+  const drinkSections = [
+    'freshjuice',
+    'milkshake',
+    'hamsatcocktails',
+    'coffeedrinks',
+    'softdrinks',
     'shisha'
   ];
 
-  const isSquareLayout = squareLayoutSections.includes(section);
+  const isDrinkSection = drinkSections.includes(section);
 
   return (
-    <section
-      id={section}
-      className={`menu-section ${isSquareLayout ? 'square-layout' : ''}`}
-    >
+    <section id={section} className="menu-section">
       <h2>{title}</h2>
       <div className="section-description">
         <p className="english-text">{description.english}</p>
@@ -30,6 +27,7 @@ const MenuSection = ({ section, title, description, items, openModal }) => {
           key={item.id}
           item={item}
           openModal={openModal}
+          layoutType={isDrinkSection ? 'drink' : 'food'}
         />
       ))}
     </section>

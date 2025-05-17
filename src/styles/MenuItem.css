@@ -1,17 +1,16 @@
+/* BASE ITEM STYLES */
 .menu-item {
-  margin: 1.5rem 0;
-  transition: transform 0.3s;
   display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
+  margin: 1.5rem 0;
   cursor: pointer;
+  transition: transform 0.2s;
+  gap: 1.5rem;
 }
 
 .menu-item:hover {
-  transform: translateX(10px);
+  transform: translateX(5px);
 }
 
-/* Default layout (image on left) */
 .menu-item-img {
   width: 80px;
   height: 80px;
@@ -21,106 +20,86 @@
   flex-shrink: 0;
 }
 
-.menu-item-content {
-  width: 100%;
+/* FOOD ITEM LAYOUT (Left image) */
+.food-item .menu-item-content {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
 }
 
-.menu-item-text {
-  width: 100%;
-}
-
-.menu-item h3 {
-  font-weight: 600;
-  margin: 0;
-  font-size: 18px;
-  line-height: 1.4;
+.food-item .price {
   color: var(--gold);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-.price-container {
-  display: flex;
-  justify-content: space-between;
+.food-item .english-title {
+  font-size: 18px;
+  color: var(--gold);
+  margin: 0 0 0.3rem 0;
+}
+
+.food-item .arabic-title {
+  font-family: 'Almarai', sans-serif;
+  font-size: 20px;
+  color: var(--gold);
+  margin: 0.8rem 0 0.3rem 0;
+  text-align: right;
+}
+
+.food-item .english-text,
+.food-item .arabic-text {
+  font-size: 13px;
+  margin: 0 0 0.3rem 0;
+}
+
+/* DRINK ITEM LAYOUT (Right image) */
+.drink-item {
+  flex-direction: row-reverse;
   align-items: center;
 }
 
-.price {
-  color: var(--gold);
-  white-space: nowrap;
-  margin-left: 0.5rem;
-  font-size: 16px;
+.drink-item .menu-item-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1.5rem;
 }
 
-.arabic-title {
-  font-family: 'Almarai', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.4;
-  color: var(--gold);
-}
-
-.english-text {
-  font-size: 13px;
-}
-
-.arabic-text {
-  font-size: 13px;
-}
-
-/* Square layout (image on right) */
-.square-layout .menu-item {
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.square-layout .menu-item-img {
-  width: 50px;
-  height: 50px;
-  margin-right: 1rem;
-}
-
-.square-layout .menu-item-content {
+.drink-item .menu-item-content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
-  flex: 1;
 }
 
-.square-layout .price-container {
-  display: block;
-}
-
-.square-layout .english-title {
-  font-size: 16px;
-  margin-bottom: 0.3rem;
-  color: var(--gold);
-}
-
-.square-layout .arabic-title {
+.drink-item .arabic-title {
+  font-family: 'Almarai', sans-serif;
   font-size: 18px;
-  margin-bottom: 0.3rem;
   color: var(--gold);
+  margin: 0 0 0.3rem 0;
+  text-align: right;
+  order: 1;
 }
 
-.square-layout .price {
-  margin: 0;
+.drink-item .english-title {
+  font-size: 16px;
+  color: var(--gold);
+  margin: 0 0 0.3rem 0;
+  order: 2;
+}
+
+.drink-item .price {
+  color: var(--gold);
   font-size: 15px;
-  color: var(--gold);
-  background: transparent;
-  padding: 0;
+  order: 3;
+  margin: 0;
 }
 
-/* Remove description for square layout items */
-.square-layout .english-text,
-.square-layout .arabic-text {
+/* Hide descriptions in drink items */
+.drink-item .english-text,
+.drink-item .arabic-text {
   display: none;
 }
 
-/* Mobile responsive styles */
+/* RESPONSIVE STYLES */
 @media (max-width: 768px) {
   .menu-item {
     flex-direction: column;
@@ -132,26 +111,13 @@
     height: 200px;
   }
 
-  .price-container {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: start;
-    gap: 15px;
-  }
-
-  .menu-item:hover {
-    transform: translateX(0px);
-  }
-
-  /* Square layout mobile */
-  .square-layout .menu-item {
+  .drink-item {
     flex-direction: column;
   }
 
-  .square-layout .menu-item-img {
-    width: 100%;
-    height: 200px;
+  .drink-item .menu-item-img {
     margin-left: 0;
+    margin-bottom: 1rem;
   }
 }
 
@@ -159,64 +125,26 @@
   .menu-item-img {
     height: 150px;
   }
-
-  .square-layout .menu-item-img {
-    height: 150px;
-  }
 }
 
 @media (max-width: 390px) {
-  .menu-item h3 {
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex-wrap: wrap;
-  }
-
-  .arabic-title {
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: break-word;
-  }
-
-  .price {
-    font-size: 14px;
-    margin-left: 0.3rem;
-  }
-
-  .menu-item {
-    gap: 0.8rem;
-  }
-
   .menu-item-img {
     height: 120px;
   }
 
-  .menu-item-content {
-    gap: 0.5rem;
-  }
-
-  /* Square layout mobile small */
-  .square-layout .menu-item-img {
-    height: 120px;
-  }
-
-  .square-layout .english-title {
-    font-size: 15px;
-  }
-
-  .square-layout .arabic-title {
+  .food-item .english-title {
     font-size: 16px;
   }
 
-  .square-layout .price {
-    font-size: 14px;
+  .food-item .arabic-title {
+    font-size: 18px;
+  }
+
+  .drink-item .arabic-title {
+    font-size: 16px;
+  }
+
+  .drink-item .english-title {
+    font-size: 15px;
   }
 }
