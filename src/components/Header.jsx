@@ -63,12 +63,12 @@ const Header = () => {
       </div>
       
       <nav>
-        <a href="#hamstspeciality">Hamsat Speciality | همسات سبيشليتي</a>
+        <a href="#hamstspeciality">Hamsat Specialty | همسات سبيشليتي</a>
         <a href="#starters">Starters | مقبلات</a>
         <a href="#salads">Salads | السلطات</a>
         <a href="#opensandwiches">Open Sandwiches | ساندويتش مفتوحة</a>
         <a href="#maincourse">Main Courses | الأطباق الرئيسية</a>
-        <a href="#desserts">Desserts | حلوى</a>
+        <a href="#desserts">Desserts | الحلويات</a>
         
         <div 
           ref={dropdownRef}
@@ -109,7 +109,7 @@ const Header = () => {
             </a>
           </div>
         </div>
-        
+      
         <a href="#coffeedrinks">Hot Beverages | مشروبات ساخنة</a>
         <a href="#softdrinks">Soft Drinks | المشروبات الغازية</a>
         <a href="#shisha">Shisha | شيشا</a>

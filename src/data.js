@@ -2,8 +2,8 @@ export const menuData = {
   hamstspeciality: {
     title: "Hamsat Speciality | همسات سبيشليتي",
     description: {
-      english: "The beginning of an unforgettable dining saga.",
-      arabic: "بداية ملحمة طعام لا تُنسى."
+      english: "An unexpected but delightful taste.",
+      arabic: "طعم غير متوقع لكنه لذيذ."
     },
     items: [
       {
@@ -333,10 +333,10 @@ export const menuData = {
     ]
   },
   desserts: {
-    title: "Main Courses | الأطباق الرئيسية",
+    title: "Desserts | الحلويات",
     description: {
-      english: "Mighty dishes worthy of warriors and kings.",
-      arabic: "أطباق عظيمة تليق بالمحاربين والملوك."
+      english: "Fairy Tale Confections with Happy Endings.",
+      arabic: "حلويات القصص الخيالية ذات النهاية السعيدة."
     },
     items: [
       {
@@ -438,16 +438,7 @@ export const menuData = {
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
-      {
-        id: 29,
-        englishTitle: "Passion Fruit Lemonade.",
-        arabicTitle: "ليموناضة فاكهة الباشن.",
-        price: "250,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
+            {
         id: 30,
         englishTitle: "Fresh Mango.",
         arabicTitle: "عصير المانجا الطازج.",
@@ -466,9 +457,18 @@ export const menuData = {
         image: "uploads/souffle.jpg"
       },
       {
-        id: 32,
-        englishTitle: "minted lemonade (fresh, Frozen).",
-        arabicTitle: "عصير ليمون بالنعناع (طازج، مجمد).",
+        id: 29,
+        englishTitle: "Fresh Passion Fruit Lemonade.",
+        arabicTitle: "ليموناضة فاكهة الباشن.",
+        price: "250,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
+      },
+      {
+        id: 47,
+        englishTitle: "Seasonal Fresh Jasmine lemonade.",
+        arabicTitle: "عصير ليمون الياسمين الطازج الموسمي.",
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
@@ -484,68 +484,32 @@ export const menuData = {
         image: "uploads/souffle.jpg"
       },
       {
-        id: 34,
-        englishTitle: "Fresh Fruit Cocktail (blended).",
-        arabicTitle: "كوكتيل فواكه طازج (مخلوط).",
-        price: "250,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 35,
-        englishTitle: "Virgin Pina Colada.",
-        arabicTitle: "فيرجن بينا كولادا.",
-        price: "250,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 36,
-        englishTitle: "Strawberry Pina Colada.",
-        arabicTitle: "بينا كولادا الفراولة.",
-        price: "250,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 37,
-        englishTitle: "Virgin Mohitto.",
-        arabicTitle: "فيرجن موهيتو.",
+        id: 32,
+        englishTitle: "minted lemonade (fresh, Frozen).",
+        arabicTitle: "عصير ليمون بالنعناع (طازج، مجمد).",
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
       {
-        id: 45,
-        englishTitle: "Jamaica.",
-        arabicTitle: "جامايكا.",
-        price: "200,000 LBP",
+        id: 33,
+        englishTitle: "Detox 1.",
+        arabicTitle: "عصير البطيخ الطازج الموسمي.",
+        price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
       {
-        id: 46,
-        englishTitle: "Ginger Ale Mix (7up Lime Syrup).",
-        arabicTitle: "مزيج الزنجبيل (شراب الليمون 7up).",
-        price: "150,000 LBP",
+        id: 33,
+        englishTitle: "detox 2.",
+        arabicTitle: "عصير البطيخ الطازج الموسمي.",
+        price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
-      {
-        id: 47,
-        englishTitle: "Seasonal Fresh Jasmine lemonade.",
-        arabicTitle: "عصير ليمون الياسمين الطازج الموسمي.",
-        price: "200,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      }
     ]
   },
     milkshake: {
@@ -601,41 +565,50 @@ export const menuData = {
     },
     items: [
       {
-        id: 61,
-        englishTitle: "Hamsat Special",
-        arabicTitle: "كوكتيل همسات الخاص",
-        price: "400,000 LBP",
-        englishDescription: "Our signature cocktail with tropical fruits",
-        arabicDescription: "كوكتيلنا الخاص مع الفواكه الاستوائية",
-        image: "uploads/cocktail.jpg"
+        id: 35,
+        englishTitle: "Virgin Pina Colada.",
+        arabicTitle: "فيرجن بينا كولادا.",
+        price: "250,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
       },
       {
-        id: 62,
-        englishTitle: "Sunset Bliss",
-        arabicTitle: "نشوة الغروب",
-        price: "400,000 LBP",
-        englishDescription: "Orange, mango and passionfruit mix",
-        arabicDescription: "مزيج من البرتقال والمانجو وفاكهة الباشن",
-        image: "uploads/cocktail.jpg"
+        id: 36,
+        englishTitle: "Strawberry Pina Colada.",
+        arabicTitle: "بينا كولادا الفراولة.",
+        price: "250,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
       },
       {
-        id: 63,
-        englishTitle: "Berry Delight",
-        arabicTitle: "بهجة التوت",
-        price: "400,000 LBP",
-        englishDescription: "Mixed berries with mint and lime",
-        arabicDescription: "توت مشكل مع النعناع والليمون",
-        image: "uploads/cocktail.jpg"
+        id: 37,
+        englishTitle: "Virgin Mohitto.",
+        arabicTitle: "فيرجن موهيتو.",
+        price: "200,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
       },
       {
-        id: 64,
-        englishTitle: "Tropical Breeze",
-        arabicTitle: "نسيم استوائي",
-        price: "450,000 LBP",
-        englishDescription: "Pineapple, coconut and mango fusion",
-        arabicDescription: "مزيج من الأناناس وجوز الهند والمانجو",
-        image: "uploads/cocktail.jpg"
-      }
+        id: 45,
+        englishTitle: "Jamaica.",
+        arabicTitle: "جامايكا.",
+        price: "200,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
+      },
+      {
+        id: 46,
+        englishTitle: "Ginger Ale Mix (7up Lime Syrup).",
+        arabicTitle: "مزيج الزنجبيل (شراب الليمون 7up).",
+        price: "150,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
+      },
     ]
   },
   coffeedrinks: {
@@ -801,39 +774,66 @@ export const menuData = {
     ]
   },
   shisha: {
-    title: "Juice Cocktail | عصير كوكتيل",
+    title: "ٍShisha | اراكيل",
     description: {
-      english: "Colossal flavors that shake the earth.",
-      arabic: "نكهة هائلة تهز الأرض."
+      english: "Rich clouds of aged tobacco, sweetened to perfection.",
+      arabic: "سحب غنية من التبغ القديم، محلاة إلى حد الكمال."
     },
     items: [
       {
         id: 45,
-        englishTitle: "Jamaica.",
-        arabicTitle: "جامايكا.",
-        price: "200,000 LBP",
+        englishTitle: "",
+        arabicTitle: "اركيلة عجمي",
+        price: "450,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
       {
-        id: 46,
-        englishTitle: "Ginger Ale Mix (7up Lime Syrup).",
-        arabicTitle: "مزيج الزنجبيل (شراب الليمون 7up).",
-        price: "150,000 LBP",
+        id: 45,
+        englishTitle: "",
+        arabicTitle: "اركيلة تفاحتين",
+        price: "450,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
       {
-        id: 47,
-        englishTitle: "Seasonal Fresh Jasmine lemonade.",
-        arabicTitle: "عصير ليمون الياسمين الطازج الموسمي.",
-        price: "200,000 LBP",
+        id: 45,
+        englishTitle: "",
+        arabicTitle: "اركيلة حامض و نعناع",
+        price: "450,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
-      }
+      },
+      {
+        id: 45,
+        englishTitle: "",
+        arabicTitle: "اركيلة علكة",
+        price: "450,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
+      },
+      {
+        id: 45,
+        englishTitle: "",
+        arabicTitle: "اركيلة حب",
+        price: "450,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
+      },
+      {
+        id: 45,
+        englishTitle: "",
+        arabicTitle: "اركيلة همسات سبيشيل",
+        price: "700,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
+      },
     ]
   },
 };
