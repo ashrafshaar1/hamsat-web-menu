@@ -34,8 +34,8 @@ const Header = () => {
   }, []);
 
   const toggleDropdown = (e) => {
+    e.preventDefault();
     if (isMobile) {
-      e.preventDefault();
       setIsDropdownOpen(!isDropdownOpen);
     }
   };
@@ -77,7 +77,7 @@ const Header = () => {
           onMouseLeave={() => !isMobile && setIsDropdownOpen(false)}
         >
           <a 
-            href="#beverage" 
+            href={isMobile ? undefined : "#beverage"} 
             className="dropdown-toggle"
             onClick={toggleDropdown}
             aria-expanded={isDropdownOpen}
