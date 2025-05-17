@@ -34,15 +34,13 @@ const Header = () => {
   }, []);
 
   const toggleDropdown = (e) => {
-    e.preventDefault();
-    setIsDropdownOpen(!isDropdownOpen);
+    if (isMobile) {
+      e.preventDefault();
+      setIsDropdownOpen(!isDropdownOpen);
+    }
   };
 
-  const closeDropdown = (e) => {
-    if (isMobile && e) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
+  const closeDropdown = () => {
     setIsDropdownOpen(false);
   };
 
@@ -91,21 +89,21 @@ const Header = () => {
             <a 
               href="#freshjuice" 
               style={{ '--i': 0 }}
-              onClick={(e) => isMobile ? null : closeDropdown(e)}
+              onClick={closeDropdown}
             >
               Fresh Juice | عصائر طازجة
             </a>
             <a 
               href="#milkshake" 
               style={{ '--i': 1 }}
-              onClick={(e) => isMobile ? null : closeDropdown(e)}
+              onClick={closeDropdown}
             >
               Milkshake | ميلك شيك
             </a>
             <a 
               href="#hamsatcocktails" 
               style={{ '--i': 2 }}
-              onClick={(e) => isMobile ? null : closeDropdown(e)}
+              onClick={closeDropdown}
             >
               Hamsat Cocktails | كوكتيلات همسات
             </a>
