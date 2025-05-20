@@ -1,6 +1,6 @@
 export const menuData = {
   hamstspeciality: {
-    title: "Hamsat Speciality | همسات سبيشليتي",
+    title: "Hamasat Offers | عروضات همسات",
     description: {
       english: "An unexpected but delightful taste.",
       arabic: "طعم غير متوقع لكنه لذيذ."
@@ -11,7 +11,7 @@ export const menuData = {
         englishTitle: "Jalepeno Cheddar Cheese Triangles.",
         arabicTitle: "مثلثات جبنة شيدر بالجالبينو.",
         price: "500,000 LBP",
-        englishDescription: "6 pcs of fried breaded cheddar cheese.",
+        englishDescription: "6 pcs of Fried Breaded Cheddar Cheese.",
         arabicDescription: "6 قطع من جبن الشيدر المقلي.",
         image: "uploads/123.jfif"
       },
@@ -62,11 +62,11 @@ export const menuData = {
       },
       {
         id: 7,
-        englishTitle: "Shrimps Provincial.",
-        arabicTitle: "قريدس.",
+        englishTitle: "Dynamite Shrimps.",
+        arabicTitle: " قريدس ديناميت.",
         price: "600,000 LBP",
-        englishDescription: "Shrimps, Parsly, Corriander, Lemon, Garlic.",
-        arabicDescription: "قريدس، بقدونس، كزبرة، ليمون، ثوم.",
+        englishDescription: "Deep Fried Shrimps served with Dynamite Sauce.",
+        arabicDescription: "قريدس مقلي يقدم مع صلصة الديناميت.",
         image: "uploads/arancini.jpg"
       }
     ]
@@ -80,6 +80,24 @@ export const menuData = {
     items: [
       {
         id: 1,
+        englishTitle: "Cheese Balls.",
+        arabicTitle: "كرات الجبن.",
+        price: "500,000 LBP",
+        englishDescription: "6 pcs of fried mixed cheese breaded balls.",
+        arabicDescription: "6 قطع من كرات الجبن المقلية..",
+        image: "uploads/123.jfif"
+      },
+      {
+        id: 1,
+        englishTitle: "Nachos.",
+        arabicTitle: "ناتشوس.",
+        price: "500,000 LBP",
+        englishDescription: "Tortilla chips mixed with 4 cheese served with jalapeno, sour cream and salsa.",
+        arabicDescription: "رقائق التورتيلا المخلوطة مع 4 أنواع من الجبن تقدم مع الفلفل الحار والكريمة الحامضة والصلصة.",
+        image: "uploads/123.jfif"
+      },
+      {
+        id: 1,
         englishTitle: "Jalepeno Cheddar Cheese Triangles.",
         arabicTitle: "مثلثات جبنة شيدر بالجالبينو.",
         price: "500,000 LBP",
@@ -101,17 +119,26 @@ export const menuData = {
         englishTitle: "Herbal Lebanese Wedges.",
         arabicTitle: "ودجز لبنانية بالأعشاب.",
         price: "400,000 LBP",
-        englishDescription: "Basil, Thyme, Peprica, Garlic.",
-        arabicDescription: "ريحان، زعتر، فلفل حلو، ثوم.",
+        englishDescription: "Wedges mixed with Oriental Herbal spices.",
+        arabicDescription: "ودجز ممزوجة بالتوابل العشبية الشرقية.",
+        image: "uploads/arancini.jpg"
+      },
+      {
+        id: 3,
+        englishTitle: "Fries.",
+        arabicTitle: "بطاطس مقلية",
+        price: "400,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
         image: "uploads/arancini.jpg"
       },
       {
         id: 4,
         englishTitle: "Wings Provincial.",
-        arabicTitle: "جوانح.",
+        arabicTitle: "جوانح بروفنسيال.",
         price: "500,000 LBP",
-        englishDescription: "Parsly, Corriander, Lemon, Garlic.",
-        arabicDescription: "بقدونس، كزبرة، ليمون، ثوم.",
+        englishDescription: "Provincial Wings mixed with oriental herbs.",
+        arabicDescription: "أجنحة بروفنسيال ممزوجة بالأعشاب الشرقية.",
         image: "uploads/arancini.jpg"
       },
       {
@@ -119,8 +146,8 @@ export const menuData = {
         englishTitle: "Oriental Beef Strips Fillets.",
         arabicTitle: "شرائح لحم بقري شرقية.",
         price: "500,000 LBP",
-        englishDescription: "Thyme, Rosemary, Raspberry/Cherry Vinegar.",
-        arabicDescription: "زعتر، اكليل الجبل، خل التوت/الكرز.",
+        englishDescription: "Beef strips mixed with Oriental herbs.",
+        arabicDescription: "شرائح لحم البقر ممزوجة بالأعشاب الشرقية.",
         image: "uploads/arancini.jpg"
       },
       {
@@ -128,8 +155,8 @@ export const menuData = {
         englishTitle: "Oriental Chicken Strips.",
         arabicTitle: "شرائح الدجاج الشرقية.",
         price: "500,000 LBP",
-        englishDescription: "Grilled Chicken served with Spicy Mayo Dip.",
-        arabicDescription: "دجاج مشوي يقدم مع صلصة المايونيز الحارة.",
+        englishDescription: "Grilled Chicken strips mixed with Oriental herbs.",
+        arabicDescription: "شرائح دجاج مشوية ممزوجة بالأعشاب الشرقية.",
         image: "uploads/arancini.jpg"
       },
       {
@@ -137,8 +164,17 @@ export const menuData = {
         englishTitle: "Shrimps Provincial.",
         arabicTitle: "قريدس.",
         price: "600,000 LBP",
-        englishDescription: "Shrimps, Parsly, Corriander, Lemon, Garlic.",
-        arabicDescription: "قريدس، بقدونس، كزبرة، ليمون، ثوم.",
+        englishDescription: "Shrimps mixed with Provincial herbs.",
+        arabicDescription: "قريدس ممزوج مع أعشاب محلية.",
+        image: "uploads/arancini.jpg"
+      },
+      {
+        id: 7,
+        englishTitle: "Dynamite Shrimps.",
+        arabicTitle: " قريدس ديناميت.",
+        price: "600,000 LBP",
+        englishDescription: "Deep Fried Shrimps served with Dynamite Sauce.",
+        arabicDescription: "قريدس مقلي يقدم مع صلصة الديناميت.",
         image: "uploads/arancini.jpg"
       }
     ]
@@ -155,8 +191,8 @@ export const menuData = {
         englishTitle: "Crab Salad.",
         arabicTitle: "سلطة الكراب.",
         price: "500,000 LBP",
-        englishDescription: "Mixed Greens (Mayo, Soy Sauce, Sesame Oil).",
-        arabicDescription: "خضراوات مشكلة (مايونيز، صلصة الصويا، زيت السمسم).",
+        englishDescription: "Crab, Iceberg Lettuce, Rice Noodles, Cucumber, Carrots, Mayo Soy Dressing",
+        arabicDescription: "كراب، خس الآيسبيرغ، نودلز الأرز، الخيار، الجزر و صلصة الصويا والمايونيز.",
         image: "uploads/filet.jpg"
       },
       {
@@ -164,8 +200,8 @@ export const menuData = {
         englishTitle: "Smoked Salamon Salad.",
         arabicTitle: "سلطة السلمون المدخن.",
         price: "700,000 LBP",
-        englishDescription: "Mixed Greens, Smoked Salamon, served with Creamy Lemon Caper Dressing.",
-        arabicDescription: "خضراوات مشكلة، سلمون مدخن، يقدم مع صلصة الليمون الكريمية بالكبر.",
+        englishDescription: "Smoked Salamon, Mixed Greens served with Creamy Lemon Caper Dressing.",
+        arabicDescription: "سلمون مدخن، ضراوات مشكلة يقدم مع صلصة الليمون الكريمية بالكبر.",
         image: "uploads/salmon.jpg"
       },
       {
@@ -173,8 +209,8 @@ export const menuData = {
         englishTitle: "Shrimp Salad.",
         arabicTitle: "سلطة القريدس.",
         price: "600,000 LBP",
-        englishDescription: "Mixed Greens, Shrimps served with Herbal, Olive Oil, Vinaigrette Dressing.",
-        arabicDescription: "خضراوات مشكلة، روبيان يقدم مع أعشاب، زيت زيتون، صلصة الخل.",
+        englishDescription: "Shrimps, Mixed Greens served with Lemon, Oil and Herbal Dressing.",
+        arabicDescription: "قريدس، خضراوات مشكلة تقدم مع الليمون والزيت والصلصة العشبية.",
         image: "uploads/salmon.jpg"
       },
       {
@@ -182,8 +218,8 @@ export const menuData = {
         englishTitle: "Chicken Strip Salad.",
         arabicTitle: "سلطة شرائح الدجاج.",
         price: "500,000 LBP",
-        englishDescription: "Mixed Greens, Grilled Chicken Strips, Creamy Mayo Dressing.",
-        arabicDescription: "خضراوات مشكلة، شرائح دجاج مشوية، صلصة مايونيز كريمية.",
+        englishDescription: "Grilled Chicken Strips, Mixed Greens and Creamy Mayo Dressing.",
+        arabicDescription: " شرائح دجاج مشوية، ضراوات مشكلة و صلصة مايونيز كريمية.",
         image: "uploads/salmon.jpg"
       },
       {
@@ -191,14 +227,14 @@ export const menuData = {
         englishTitle: "Chicken Ceaser Salad.",
         arabicTitle: "سلطة سيزر بالدجاج.",
         price: "500,000 LBP",
-        englishDescription: "Iceberg Letous, Grilled Chicken Strips, Ceaser Dressing.",
-        arabicDescription: "خس آيسبرغ، شرائح دجاج مشوية، صلصة سيزر.",
+        englishDescription: "Grilled Chicken Strips, Iceberg Lettuce and Caesar Dressing.",
+        arabicDescription: "شرائح دجاج مشوية، خس آيسبرغ و صلصة سيزر.",
         image: "uploads/salmon.jpg"
       }
     ]
   },
   opensandwiches: {
-    title: "Open Sandwiches | ساندويتش مفتوحة",
+    title: "Open Sandwiches | ساندويتشات مفتوحة",
     description: {
       english: "Where sandwiches becomes a masterpiece.",
       arabic: "حيث تصبح السندويشات تحفة فنية."
@@ -206,56 +242,56 @@ export const menuData = {
     items: [
       {
         id: 20,
-        englishTitle: "Chicken Ceaser Sandwiche.",
-        arabicTitle: "ساندويتش دجاج سيزر.",
+        englishTitle: "Francisco Chicken sandwich.",
+        arabicTitle: "ساندويتش دجاج فرانسيسكو.",
         price: "500,000 LBP",
-        englishDescription: "Home made Sour Dough Bread served with Marinara Sauce, Mixed Cheese, Wedges and Creamy Mayo.",
-        arabicDescription: "خبز العجين المخمر محلي الصنع يقدم مع صلصة مارينارا، جبنة مشكلة، ودجز و مايونيز كريمي.",
+        englishDescription: "Francisco Chicken, Corn, Iceburg lettuce served with Fransisco Dipping and Fries.",
+        arabicDescription: "دجاج فرانسيسكو، ذرة، خس آيسبرغ يقدم مع صلصة فرانسيسكو و البطاطس المقلية.",
         image: "uploads/filet.jpg"
       },
       {
         id: 21,
-        englishTitle: "Miltreanean Beef Sandwiche.",
-        arabicTitle: "ساندويتش لحم البقر الميلترياني.",
+        englishTitle: "Mediterranean Beef Sandwich.",
+        arabicTitle: "ساندويتش لحم البقر الشرق أوسطي.",
         price: "600,000 LBP",
-        englishDescription: "Home made Sour Dough Bread served with Marinara Sauce, Mixed Cheese, Wedges and Creamy Pesto.",
-        arabicDescription: "خبز العجين المخمر محلي الصنع يقدم مع صلصة مارينارا، جبنة مشكلة، ودج و بيستو كريمي.",
+        englishDescription: "Mediterranean Beef Strips, Iceburg Lettuce Served with Herbal Mayo Dressing and Fries.",
+        arabicDescription: "شرائح لحم البقر الشرق أوسطية، خس آيسبرغ تقدم مع صلصة المايونيز العشبية و البطاطس المقلية.",
         image: "uploads/salmon.jpg"
       },
       {
         id: 22,
-        englishTitle: "Mixed Sea Food Sandwiche.",
+        englishTitle: "Mixed Sea Food Sandwich.",
         arabicTitle: "ساندويتش مأكولات بحرية مشكلة.",
         price: "650,000 LBP",
-        englishDescription: "Home made Sour Dough Bread served with Marinara Sauce, Mixed Cheese, Wedges and Spicey Cocktail.",
-        arabicDescription: "خبز العجين المخمر محلي الصنع يقدم مع صلصة مارينارا، جبنة مشكلة، ودجز و كوكتيل حار.",
+        englishDescription: "Mixed Sea Food, Cheese served with Special Dressing and Fries.",
+        arabicDescription: "مأكولات بحرية مشكلة، جبن، تقدم مع صلصة خاصة و البطاطس المقلية.",
         image: "uploads/salmon.jpg"
       },
       {
         id: 23,
-        englishTitle: "Chicken Pesto Sandwiche.",
+        englishTitle: "Chicken Pesto Sandwich.",
         arabicTitle: "ساندويتش دجاج بيستو.",
         price: "500,000 LBP",
-        englishDescription: "Home made Sour Dough Bread served with Marinara Sauce, Mixed Cheese, Wedges and Creamy Pesto.",
-        arabicDescription: "خبز العجين المخمر محلي الصنع يقدم مع صلصة مارينارا، جبنة مشكلة، ودجز، وبيستو كريمي.",
+        englishDescription: "Chicken Strips, Mixed Cheese served with Creamy Pesto Dressing and Fries.",
+        arabicDescription: "شرائح دجاج، جبن مشكل تقد مع صلصة البيستو الكريمية و البطاطس المقلية.",
         image: "uploads/salmon.jpg"
       },
       {
         id: 24,
-        englishTitle: "Dinamit Shrimp Sandwiche.",
+        englishTitle: "Dynamite Shrimp Sandwich.",
         arabicTitle: "ساندويتش قريدس ديناميت.",
         price: "650,000 LBP",
-        englishDescription: "Homemade Sour Dough Bread served with Marinara Sauce, Mixed Cheese, Wedges and Spicey Cocktail.",
-        arabicDescription: "خبز العجين المخمر محلي الصنع يقدم مع صلصة مارينارا، جبنة مشكلة، ودجز و كوكتيل حار.",
+        englishDescription: "Shrimps served with Marinara Sauce, Mixed Cheese, Dynamite Dressing and Fries.",
+        arabicDescription: "قريدس يقدم مع صلصة مارينارا والجبن المشكل و صلصة الديناميت و البطاطس المقلية.",
         image: "uploads/salmon.jpg"
       },
       {
         id: 25,
-        englishTitle: "Mixed Cheese Sandwiche.",
-        arabicTitle: "ساندويتش الجبنة المشكلة.",
+        englishTitle: "Pepperoni Mixed Cheese Sandwich.",
+        arabicTitle: "ساندويتش بيبروني بالجبن المشكل.",
         price: "450,000 LBP",
-        englishDescription: "Homemade Sour Dough Bread served with Marinara Sauce, Mixed Cheese, Wedges and Spicey Cocktail.",
-        arabicDescription: "خبز العجين المخمر محلي الصنع يقدم مع صلصة مارينارا، جبنة مشكلة، ودجز و كوكتيل حار.",
+        englishDescription: "Pepperoni, Mixed Cheese, Marinara Sauce and Fries.",
+        arabicDescription: "بيبروني، جبن مشكل، صلصة مارينارا و البطاطس المقلية.",
         image: "uploads/salmon.jpg"
       }
     ]
@@ -272,8 +308,8 @@ export const menuData = {
         englishTitle: "Grilled Chicken Breast.",
         arabicTitle: "صدور دجاج مشوية.",
         price: "750,000 LBP",
-        englishDescription: "Served with Wedges, Creamy Cajen Sauce.",
-        arabicDescription: "يُقدم مع ودجز وصلصة كاجين الكريمية.",
+        englishDescription: "Chicken Breast Served with Creamy Cajen Sauce and Fries.",
+        arabicDescription: "يُقدم مع صلصة كاجين الكريمية و البطاطس المقلية.",
         image: "uploads/bruschetta.jpg"
       },
       {
@@ -281,16 +317,16 @@ export const menuData = {
         englishTitle: "Grilled Beef Strip.",
         arabicTitle: "شرائح لحم البقر المشوية.",
         price: "850,000 LBP",
-        englishDescription: "Served with Creamy Pepper Sauce, Wedges.",
-        arabicDescription: "تقدم مع صلصة الفلفل الكريمية و ودجز.",
+        englishDescription: "Beef Strip Served with Creamy Pepper/Mushroom Sauce, Fries.",
+        arabicDescription: "تقدم مع صلصة الفلفل/الفطر الكريمية و البطاطس المقلية.",
         image: "uploads/arancini.jpg"
       },
       {
         id: 15,
-        englishTitle: "Sea Food Mix Platter Fish.",
-        arabicTitle: "طبق مزيج المأكولات البحرية والأسماك.",
+        englishTitle: "Sea Food Mix Platter.",
+        arabicTitle: "طبق مأكولات بحرية مشكلة.",
         price: "650,000 LBP",
-        englishDescription: "Deep Fried Crispy Shrimps, Fish, Calamari served with Crab Salad and Wedges.",
+        englishDescription: "8 قطع روبيان، 2 قطعة فيليه سمك، 1 كاليماري تقدم مع سلطة الكراب الصغيرة، الطرطور، صلصة الكوكتيل والبطاطس المقلية.",
         arabicDescription: "قريدس مقرمش مقلي، سمك، كاليماري يقدم مع سلطة الكراب و ودجز.",
         image: "uploads/arancini.jpg"
       },
