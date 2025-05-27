@@ -20,10 +20,12 @@ const Footer = () => {
         </div>
       </div>
       
-      <div className="footer-line english-text">123 Culinary Avenue • Open Tue-Sun, 5PM-11PM</div>
-      <div className="footer-line arabic-text">شارع الطهي ١٢٣ • مفتوح من الثلاثاء إلى الأحد، 5 مساءً - 11 ليلاً</div>
-      <div className="footer-line english-text">Reservations: (555) 123-4567</div>
-      <div className="footer-line arabic-text">للحجوزات: ٥٥٥ ١٢٣ ٤٥٦٧</div>
+      <div className="footer-line english-text">Qabrechmoun, Binnay road, Mega center • Open Mon-Sun, 12PM-1AM</div>
+      <div className="footer-line arabic-text">قبرشمون، طريق البنيه، مركز ميجا • مفتوح من الإثنين إلى الأحد، من الساعة 12 ظهرًا حتى 1 صباحًا</div>
+      <div className="footer-line english-text">Reservations: 76 568 531</div>
+      <div className="footer-line arabic-text">للحجوزات: 76 568 531</div>
+      <div className="footer-line english-text">© 2025 HAMASAT. All Rights Reserved.</div>
+      <div className="footer-credit">Designed and Published by ECLIPTIX SOOCIAL.</div>
     </footer>
   );
 };
