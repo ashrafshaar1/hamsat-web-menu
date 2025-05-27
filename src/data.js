@@ -8,67 +8,13 @@ export const menuData = {
     items: [
       {
         id: 1,
-        englishTitle: "",
+        englishTitle: "Breezy Bites & Puffs",
         arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
+        price: "899,000 LBP",
+        englishDescription: "Crab Salad, 2 Fresh Juices and ShiSha",
+        arabicDescription: "سلطة كراب، 2 عصير طازج، شيشة",
         image: "uploads/123.jfif"
       },
-      {
-        id: 2,
-        englishTitle: "",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 3,
-        englishTitle: "",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 4,
-        englishTitle: "",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 5,
-        englishTitle: "",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 6,
-        englishTitle: "",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 7,
-        englishTitle: "",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      }
     ]
   },
   starters: {
@@ -233,69 +179,6 @@ export const menuData = {
       }
     ]
   },
-  opensandwiches: {
-    title: "Open Sandwiches | ساندويتشات مفتوحة",
-    description: {
-      english: "Where sandwiches becomes a masterpiece.",
-      arabic: "حيث تصبح السندويشات تحفة فنية."
-    },
-    items: [
-      {
-        id: 20,
-        englishTitle: "Francisco Chicken sandwich.",
-        arabicTitle: "ساندويتش دجاج فرانسيسكو.",
-        price: "500,000 LBP",
-        englishDescription: "Francisco Chicken, Corn, Iceburg lettuce served with Fransisco Dipping and Fries.",
-        arabicDescription: "دجاج فرانسيسكو، ذرة، خس آيسبرغ يقدم مع صلصة فرانسيسكو و البطاطس المقلية.",
-        image: "uploads/filet.jpg"
-      },
-      {
-        id: 21,
-        englishTitle: "Mediterranean Beef Sandwich.",
-        arabicTitle: "ساندويتش لحم البقر الشرق أوسطي.",
-        price: "600,000 LBP",
-        englishDescription: "Mediterranean Beef Strips, Iceburg Lettuce Served with Herbal Mayo Dressing and Fries.",
-        arabicDescription: "شرائح لحم البقر الشرق أوسطية، خس آيسبرغ تقدم مع صلصة المايونيز العشبية و البطاطس المقلية.",
-        image: "uploads/salmon.jpg"
-      },
-      {
-        id: 22,
-        englishTitle: "Mixed Sea Food Sandwich.",
-        arabicTitle: "ساندويتش مأكولات بحرية مشكلة.",
-        price: "650,000 LBP",
-        englishDescription: "Mixed Sea Food, Cheese served with Special Dressing and Fries.",
-        arabicDescription: "مأكولات بحرية مشكلة، جبن، تقدم مع صلصة خاصة و البطاطس المقلية.",
-        image: "uploads/salmon.jpg"
-      },
-      {
-        id: 23,
-        englishTitle: "Chicken Pesto Sandwich.",
-        arabicTitle: "ساندويتش دجاج بيستو.",
-        price: "500,000 LBP",
-        englishDescription: "Chicken Strips, Mixed Cheese served with Creamy Pesto Dressing and Fries.",
-        arabicDescription: "شرائح دجاج، جبن مشكل تقد مع صلصة البيستو الكريمية و البطاطس المقلية.",
-        image: "uploads/salmon.jpg"
-      },
-      {
-        id: 24,
-        englishTitle: "Dynamite Shrimp Sandwich.",
-        arabicTitle: "ساندويتش قريدس ديناميت.",
-        price: "650,000 LBP",
-        englishDescription: "Shrimps served with Marinara Sauce, Mixed Cheese, Dynamite Dressing and Fries.",
-        arabicDescription: "قريدس يقدم مع صلصة مارينارا، الجبن المشكل، صلصة الديناميت و البطاطس المقلية.",
-        image: "uploads/salmon.jpg"
-      },
-      {
-        id: 25,
-        englishTitle: "Pepperoni Mixed Cheese Sandwich.",
-        arabicTitle: "ساندويتش بيبروني بالجبن المشكل.",
-        price: "450,000 LBP",
-        englishDescription: "Pepperoni, Mixed Cheese, Marinara Sauce and Fries.",
-        arabicDescription: "بيبروني، جبن مشكل، صلصة مارينارا و البطاطس المقلية.",
-        image: "uploads/salmon.jpg"
-      }
-    ]
-  },
   maincourse: {
     title: "Main Courses | الأطباق الرئيسية",
     description: {
@@ -365,7 +248,25 @@ export const menuData = {
         englishDescription: "Chicken Escalop served with Marinara Sauce and Fries.",
         arabicDescription: "إسكالوب الدجاج يقدم مع صلصة مارينارا و البطاطس المقلية.",
         image: "uploads/arancini.jpg"
-      }
+      },
+            {
+        id: 19,
+        englishTitle: "Beef Burger.",
+        arabicTitle: "برغر لحمة.",
+        price: "500,000 LBP",
+        englishDescription: "200g Home made Beef Pate served with Caramelized Onion, Fresh Tomatoes, Lettuce, Pickles, Sauce Cocktail and Fries.",
+        arabicDescription: "200 جرام من باتيه لحم البقر المصنوع منزليًا يقدم مع البصل المكرمل والطماطم الطازجة والخس والمخللات وكوكتيل الصلصة والبطاطس المقلية.",
+        image: "uploads/arancini.jpg"
+      },
+            {
+        id: 19,
+        englishTitle: "Chicken Breast Burger.",
+        arabicTitle: "برغر دجاج.",
+        price: "450,000 LBP",
+        englishDescription: "180g Grilled Chicken Breast served with Garlic Mayo Sauce, Iceberg, Pickles and Fries.",
+        arabicDescription: "180 جرام صدور دجاج مشوية تقدم مع صلصة المايونيز، الثوم، الخس، المخللات و البطاطس المقلية.",
+        image: "uploads/arancini.jpg"
+      },
     ]
   },
   desserts: {
@@ -377,67 +278,58 @@ export const menuData = {
     items: [
       {
         id: 13,
-        englishTitle: "",
+        englishTitle: "Chocolate Crepe",
         arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
+        price: "300,000 LBP",
+        englishDescription: "Add on Strawberry, Banana or Banana 100,000 LBP",
+        arabicDescription: "إضافة الفراولة أو الموز أو الموز 100,000 LBP",
         image: "uploads/bruschetta.jpg"
       },
       {
         id: 14,
-        englishTitle: "",
+        englishTitle: "Hazel Crepe",
         arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
+        price: "300,000 LBP",
+        englishDescription: "Add on Strawberry, Banana or Banana 100,000 LBP",
+        arabicDescription: "إضافة الفراولة أو الموز أو الموز 100,000 LBP",
         image: "uploads/arancini.jpg"
       },
       {
         id: 15,
-        englishTitle: "",
+        englishTitle: "Nutella Crepe",
         arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
+        price: "300,000 LBP",
+        englishDescription: "Add on Strawberry, Banana or Banana 100,000 LBP",
+        arabicDescription: "إضافة الفراولة أو الموز أو الموز 100,000 LBP",
         image: "uploads/arancini.jpg"
       },
       {
         id: 16,
-        englishTitle: "",
+        englishTitle: "Lotus Crepe",
         arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
+        price: "300,000 LBP",
+        englishDescription: "Add on Strawberry, Banana or Banana 100,000 LBP",
+        arabicDescription: "إضافة الفراولة أو الموز أو الموز 100,000 LBP",
         image: "uploads/arancini.jpg"
       },
       {
         id: 17,
-        englishTitle: "",
+        englishTitle: "Fondant with Icecream",
         arabicTitle: "",
-        price: "",
+        price: "350,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/arancini.jpg"
       },
       {
         id: 18,
-        englishTitle: "",
+        englishTitle: "Icecream",
         arabicTitle: "",
-        price: "",
-        englishDescription: "",
+        price: "100,000 LBP",
+        englishDescription: "1 Boul 100,000 LBP",
         arabicDescription: "",
         image: "uploads/arancini.jpg"
       },
-      {
-        id: 19,
-        englishTitle: "",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      }
     ]
   },
   freshjuice: {
@@ -524,24 +416,6 @@ export const menuData = {
         englishTitle: "minted lemonade (fresh, Frozen).",
         arabicTitle: "عصير ليمون بالنعناع (طازج، مجمد).",
         price: "200,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 33,
-        englishTitle: "Detox 1.",
-        arabicTitle: "عصير البطيخ الطازج الموسمي.",
-        price: "250,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 33,
-        englishTitle: "detox 2.",
-        arabicTitle: "عصير البطيخ الطازج الموسمي.",
-        price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
@@ -762,6 +636,15 @@ export const menuData = {
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
+            {
+        id: 51,
+        englishTitle: "Miranda.",
+        arabicTitle: "ميرندا.",
+        price: "100,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/souffle.jpg"
+      },
       {
         id: 52,
         englishTitle: "Energy Drink.",
@@ -819,8 +702,8 @@ export const menuData = {
       {
         id: 45,
         englishTitle: "",
-        arabicTitle: "اركيلة عجمي",
-        price: "450,000 LBP",
+        arabicTitle: "اركيلة تفاحتين + راس اكستر",
+        price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
@@ -828,8 +711,8 @@ export const menuData = {
       {
         id: 45,
         englishTitle: "",
-        arabicTitle: "اركيلة تفاحتين",
-        price: "450,000 LBP",
+        arabicTitle: "اركيلة حامض و نعناع + راس اكستر",
+        price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
@@ -837,8 +720,8 @@ export const menuData = {
       {
         id: 45,
         englishTitle: "",
-        arabicTitle: "اركيلة حامض و نعناع",
-        price: "450,000 LBP",
+        arabicTitle: "اركيلة علكة + راس اكسترا",
+        price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
@@ -846,8 +729,8 @@ export const menuData = {
       {
         id: 45,
         englishTitle: "",
-        arabicTitle: "اركيلة علكة",
-        price: "450,000 LBP",
+        arabicTitle: "اركيلة حب + راس اكسترا",
+        price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/souffle.jpg"
@@ -855,16 +738,7 @@ export const menuData = {
       {
         id: 45,
         englishTitle: "",
-        arabicTitle: "اركيلة حب",
-        price: "450,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 45,
-        englishTitle: "",
-        arabicTitle: "اركيلة همسات سبيشيل",
+        arabicTitle: "اركيلة همسات سبيشيل + راس اكسترا",
         price: "700,000 LBP",
         englishDescription: "",
         arabicDescription: "",

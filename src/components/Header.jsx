@@ -63,10 +63,9 @@ const Header = () => {
       </div>
       
       <nav>
-        <a href="#hamstspeciality">Hamsat Offers | همسات سبيشليتي</a>
+        <a href="#hamstspeciality">Weekly Offers | عروضات اسبوعية</a>
         <a href="#starters">Starters | مقبلات</a>
         <a href="#salads">Salads | السلطات</a>
-        <a href="#opensandwiches">Open Sandwiches | ساندويتش مفتوحة</a>
         <a href="#maincourse">Main Courses | الأطباق الرئيسية</a>
         <a href="#desserts">Desserts | الحلويات</a>
         
