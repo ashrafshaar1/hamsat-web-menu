@@ -5,7 +5,6 @@ import '../styles/MenuSection.css';
 const MenuSection = ({ section, title, description, items, openModal }) => {
   const drinkSections = [
     'freshjuice',
-    'milkshake',
     'hamsatcocktails',
     'coffeedrinks',
     'softdrinks',

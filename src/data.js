@@ -10,9 +10,36 @@ export const menuData = {
         id: 1,
         englishTitle: "Breezy Bites & Puffs",
         arabicTitle: "",
-        price: "899,000 LBP",
+        price: "900,000 LBP",
         englishDescription: "Crab Salad, 2 Fresh Juices and ShiSha",
-        arabicDescription: "سلطة كراب، 2 عصير طازج، شيشة",
+        arabicDescription: "سلطة كراب، 2 عصير طازج و شيشة",
+        image: "uploads/123.jfif"
+      },
+      {
+        id: 1,
+        englishTitle: "",
+        arabicTitle: "",
+        price: "",
+        englishDescription: "Shisha, Fondant and Coffee",
+        arabicDescription: "شيشة، فوندان و قهوة",
+        image: "uploads/123.jfif"
+      },
+      {
+        id: 1,
+        englishTitle: "",
+        arabicTitle: "",
+        price: "",
+        englishDescription: "Sea food plater, Crab salad شىي 1 Soft Drink",
+        arabicDescription: "طبق مأكولات بحرية، سلطة كراب , مشروب غازي واحد",
+        image: "uploads/123.jfif"
+      },
+      {
+        id: 1,
+        englishTitle: "",
+        arabicTitle: "",
+        price: "",
+        englishDescription: "Fresh Water Melon Juice and Crepe",
+        arabicDescription: "عصير البطيخ الطازج والكريب",
         image: "uploads/123.jfif"
       },
     ]
@@ -31,15 +58,6 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "6 pcs of fried mixed cheese breaded balls.",
         arabicDescription: "6 قطع من كرات الجبن المقلية..",
-        image: "uploads/123.jfif"
-      },
-      {
-        id: 1,
-        englishTitle: "Nachos.",
-        arabicTitle: "ناتشوس.",
-        price: "500,000 LBP",
-        englishDescription: "Tortilla chips mixed with 4 cheese served with jalapeno, sour cream and salsa.",
-        arabicDescription: "رقائق التورتيلا المخلوطة مع 4 أنواع من الجبن تقدم مع الفلفل الحار والكريمة الحامضة والصلصة.",
         image: "uploads/123.jfif"
       },
       {
@@ -249,7 +267,7 @@ export const menuData = {
         arabicDescription: "إسكالوب الدجاج يقدم مع صلصة مارينارا و البطاطس المقلية.",
         image: "uploads/arancini.jpg"
       },
-            {
+      {
         id: 19,
         englishTitle: "Beef Burger.",
         arabicTitle: "برغر لحمة.",
@@ -258,7 +276,7 @@ export const menuData = {
         arabicDescription: "200 جرام من باتيه لحم البقر المصنوع منزليًا يقدم مع البصل المكرمل والطماطم الطازجة والخس والمخللات وكوكتيل الصلصة والبطاطس المقلية.",
         image: "uploads/arancini.jpg"
       },
-            {
+      {
         id: 19,
         englishTitle: "Chicken Breast Burger.",
         arabicTitle: "برغر دجاج.",
@@ -276,15 +294,6 @@ export const menuData = {
       arabic: "حلويات القصص الخيالية ذات النهاية السعيدة."
     },
     items: [
-      {
-        id: 13,
-        englishTitle: "Chocolate Crepe",
-        arabicTitle: "",
-        price: "300,000 LBP",
-        englishDescription: "Add on Strawberry, Banana or Banana 100,000 LBP",
-        arabicDescription: "إضافة الفراولة أو الموز أو الموز 100,000 LBP",
-        image: "uploads/bruschetta.jpg"
-      },
       {
         id: 14,
         englishTitle: "Hazel Crepe",
@@ -317,6 +326,24 @@ export const menuData = {
         englishTitle: "Fondant with Icecream",
         arabicTitle: "",
         price: "350,000 LBP",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/arancini.jpg"
+      },
+      {
+        id: 18,
+        englishTitle: "Baklava Icecream",
+        arabicTitle: "",
+        price: "",
+        englishDescription: "",
+        arabicDescription: "",
+        image: "uploads/arancini.jpg"
+      },
+      {
+        id: 18,
+        englishTitle: "Dubai Chocolate",
+        arabicTitle: "",
+        price: "",
         englishDescription: "",
         arabicDescription: "",
         image: "uploads/arancini.jpg"
@@ -420,51 +447,6 @@ export const menuData = {
         arabicDescription: "",
         image: "uploads/souffle.jpg"
       },
-    ]
-  },
-    milkshake: {
-    title: "Milkshake | ميلك شيك",
-    description: {
-      english: "Creamy, dreamy milkshake delights",
-      arabic: "ميلك شيك كريمي ولذيذ"
-    },
-    items: [
-      {
-        id: 57,
-        englishTitle: "Classic Vanilla Milkshake",
-        arabicTitle: "ميلك شيك فانيليا كلاسيكي",
-        price: "300,000 LBP",
-        englishDescription: "Creamy vanilla milkshake with whipped cream",
-        arabicDescription: "ميلك شيك فانيليا كريمي مع كريمة مخفوقة",
-        image: "uploads/milkshake.jpg"
-      },
-      {
-        id: 58,
-        englishTitle: "Chocolate Dream",
-        arabicTitle: "حلم الشوكولاتة",
-        price: "300,000 LBP",
-        englishDescription: "Rich chocolate milkshake with chocolate syrup",
-        arabicDescription: "ميلك شيك شوكولاتة غني مع شراب الشوكولاتة",
-        image: "uploads/milkshake.jpg"
-      },
-      {
-        id: 59,
-        englishTitle: "Strawberry Fields",
-        arabicTitle: "حقول الفراولة",
-        price: "300,000 LBP",
-        englishDescription: "Fresh strawberry milkshake with real fruit",
-        arabicDescription: "ميلك شيك فراولة طازج مع فاكهة حقيقية",
-        image: "uploads/milkshake.jpg"
-      },
-      {
-        id: 60,
-        englishTitle: "Caramel Crunch",
-        arabicTitle: "كرانش كراميل",
-        price: "350,000 LBP",
-        englishDescription: "Caramel milkshake with crushed cookies",
-        arabicDescription: "ميلك شيك كراميل مع بسكويت مفتت",
-        image: "uploads/milkshake.jpg"
-      }
     ]
   },
   hamsatcocktails: {

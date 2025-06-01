@@ -93,13 +93,6 @@ const Header = () => {
               Fresh Juice | عصائر طازجة
             </a>
             <a 
-              href="#milkshake" 
-              style={{ '--i': 1 }}
-              onClick={closeDropdown}
-            >
-              Milkshake | ميلك شيك
-            </a>
-            <a 
               href="#hamsatcocktails" 
               style={{ '--i': 2 }}
               onClick={closeDropdown}
