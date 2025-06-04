@@ -30,6 +30,7 @@ const Modal = ({
 					src={imageUrl}
 					alt='Dish'
 					className='modal-img'
+					loading='lazy'
 				/>
 
 				<div className='modal-titles'>
