@@ -19,7 +19,7 @@ const MenuItem = ({ item, openModal, layoutType }) => {
       onClick={handleClick}
       style={{ cursor: isClickable ? 'pointer' : 'default' }}
     >
-      <img src={item.image} alt={item.englishTitle} className="menu-item-img" />
+      <img src={item.image} alt={item.englishTitle} className="menu-item-img" loading='lazy'/>
       
       <div className="menu-item-content">
         {layoutType === 'food' ? (
