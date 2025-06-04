@@ -53,21 +53,12 @@ export const menuData = {
     items: [
       {
         id: 1,
-        englishTitle: "Cheese Balls.",
-        arabicTitle: "كرات الجبن.",
-        price: "500,000 LBP",
-        englishDescription: "6 pcs of fried mixed cheese breaded balls.",
-        arabicDescription: "6 قطع من كرات الجبن المقلية..",
-        image: "uploads/123.jfif"
-      },
-      {
-        id: 1,
         englishTitle: "Jalepeno Cheddar Cheese Triangles.",
         arabicTitle: "مثلثات جبنة شيدر بالجالبينو.",
         price: "500,000 LBP",
         englishDescription: "6 pcs of fried breaded cheddar cheese.",
         arabicDescription: "6 قطع من جبن الشيدر المقلي.",
-        image: "uploads/123.jfif"
+        image: "uploads/starters/TRIANGLES.JPG"
       },
       {
         id: 2,
@@ -76,7 +67,7 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "6 pcs of fried Breaded Calamari Rings.",
         arabicDescription: "6 قطع من حلقات الكاليماري المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/CALAMARI.JPEG"
       },
       {
         id: 3,
@@ -85,7 +76,7 @@ export const menuData = {
         price: "400,000 LBP",
         englishDescription: "Wedges mixed with Oriental Herbal spices.",
         arabicDescription: "ودجز ممزوجة بالتوابل العشبية الشرقية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/WEDGES.JPG"
       },
       {
         id: 3,
@@ -94,7 +85,7 @@ export const menuData = {
         price: "400,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/FRIES.JPEG"
       },
       {
         id: 4,
@@ -103,7 +94,7 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "Provincial Wings mixed with oriental herbs.",
         arabicDescription: "أجنحة بروفنسيال ممزوجة بالأعشاب الشرقية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/WINGS.JPEG"
       },
       {
         id: 5,
@@ -112,7 +103,7 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "Beef strips mixed with Oriental herbs.",
         arabicDescription: "شرائح لحم البقر ممزوجة بالأعشاب الشرقية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/BEEF.JPEG"
       },
       {
         id: 6,
@@ -121,7 +112,7 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "Grilled Chicken strips mixed with Oriental herbs.",
         arabicDescription: "شرائح دجاج مشوية ممزوجة بالأعشاب الشرقية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/CHICKEN.JPEG"
       },
       {
         id: 7,
@@ -130,7 +121,7 @@ export const menuData = {
         price: "600,000 LBP",
         englishDescription: "Shrimps mixed with Provincial herbs.",
         arabicDescription: "قريدس ممزوج مع أعشاب محلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/SHRIMP.JPG"
       },
       {
         id: 7,
@@ -139,7 +130,7 @@ export const menuData = {
         price: "600,000 LBP",
         englishDescription: "Deep Fried Shrimps served with Dynamite Sauce.",
         arabicDescription: "قريدس مقلي يقدم مع صلصة الديناميت.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/starters/SHRIMPD.JPEG"
       }
     ]
   },
@@ -157,16 +148,16 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "Crab, Iceberg Lettuce, Rice Noodles, Cucumber, Carrots, Mayo Soy Dressing",
         arabicDescription: "كراب، خس الآيسبيرغ، نودلز الأرز، الخيار، الجزر، صلصة الصويا و المايونيز.",
-        image: "uploads/filet.jpg"
+        image: "uploads/salad/CRAB.JPEG"
       },
       {
         id: 9,
-        englishTitle: "Smoked Salamon Salad.",
+        englishTitle: "Smoked Salmon Salad.",
         arabicTitle: "سلطة السلمون المدخن.",
         price: "700,000 LBP",
-        englishDescription: "Smoked Salamon, Mixed Greens served with Creamy Lemon Caper Dressing.",
+        englishDescription: "Smoked Salmon, Mixed Greens served with Creamy Lemon Caper Dressing.",
         arabicDescription: "سلمون مدخن، خضراوات مشكلة يقدم مع صلصة الليمون الكريمية بالكبر.",
-        image: "uploads/salmon.jpg"
+        image: "uploads/salad/SALMON.JPEG"
       },
       {
         id: 10,
@@ -175,7 +166,7 @@ export const menuData = {
         price: "600,000 LBP",
         englishDescription: "Shrimps, Mixed Greens served with Lemon, Oil Herbal Dressing.",
         arabicDescription: "قريدس، خضراوات مشكلة تقدم مع الليمون و الزيت المنكه بالاعشاب.",
-        image: "uploads/salmon.jpg"
+        image: "uploads/salad/SHRIMP.JPEG"
       },
       {
         id: 11,
@@ -184,7 +175,7 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "Grilled Chicken Strips, Mixed Greens and Creamy Mayo Dressing.",
         arabicDescription: " شرائح دجاج مشوية، خضراوات مشكلة و صلصة مايونيز كريمية.",
-        image: "uploads/salmon.jpg"
+        image: "uploads/salad/CHICKEN.JPEG"
       },
       {
         id: 12,
@@ -193,7 +184,7 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "Grilled Chicken Strips, Iceberg Lettuce and Caesar Dressing.",
         arabicDescription: "شرائح دجاج مشوية، خس آيسبرغ و صلصة سيزر.",
-        image: "uploads/salmon.jpg"
+        image: "uploads/salad/CEASER.JPEG"
       }
     ]
   },
@@ -211,7 +202,7 @@ export const menuData = {
         price: "750,000 LBP",
         englishDescription: "Chicken Breast Served with Creamy Cajen Sauce and Fries.",
         arabicDescription: "يُقدم مع صلصة كاجين الكريمية و البطاطس المقلية.",
-        image: "uploads/bruschetta.jpg"
+        image: "uploads/ham main/GRILLEDCHI.JPEG"
       },
       {
         id: 14,
@@ -220,7 +211,7 @@ export const menuData = {
         price: "850,000 LBP",
         englishDescription: "Beef Strip Served with Creamy Pepper/Mushroom Sauce, Fries.",
         arabicDescription: "تقدم مع صلصة الفلفل/الفطر الكريمية و البطاطس المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/GRILLEDBEEF.JPEG"
       },
       {
         id: 15,
@@ -229,7 +220,7 @@ export const menuData = {
         price: "650,000 LBP",
         englishDescription: "8 Shrimp pcs, 2 Fish Fillet pcs, 1 Calamari served with Mini Crab Salad, Tartar, Cocktail Sauce and Fries.",
         arabicDescription: "8 قطع قريدس، 2 قطعة فيليه سمك، 1 كاليماري تقدم مع سلطة الكراب حجم صغير، الطرطور، صلصة الكوكتيل و البطاطس المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/SEAFOOD.JPEG"
       },
       {
         id: 16,
@@ -238,7 +229,7 @@ export const menuData = {
         price: "650,000 LBP",
         englishDescription: "14 Crispy Shrimp pcs served with Pickles, Tartar, Cocktail and Fries.",
         arabicDescription: "14 قطعة قريدس مقرمش تقدم مع مخلل، طرطور، كوكتيل و بطاطس مقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/SHRIMPS.JPEG"
       },
       {
         id: 17,
@@ -247,7 +238,7 @@ export const menuData = {
         price: "650,000 LBP",
         englishDescription: "6 Crispy Fish Fillet pcs served with Pickles, Tartar sauce and Fries.",
         arabicDescription: "6 قطع من فيليه السمك المقرمش تقدم مع المخلل، صلصة الطرطور و البطاطس المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/FISH.JPEG"
       },
       {
         id: 18,
@@ -256,7 +247,7 @@ export const menuData = {
         price: "600,000 LBP",
         englishDescription: "6 Crispy Chicken pcs served with Pickles, Garlic sauce and Fries.",
         arabicDescription: "6 قطع دجاج مقرمشة تقدم مع المخلل، صلصة الثوم و البطاطس المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/CRISPY.JPEG"
       },
       {
         id: 19,
@@ -265,7 +256,7 @@ export const menuData = {
         price: "700,000 LBP",
         englishDescription: "Chicken Escalop served with Marinara Sauce and Fries.",
         arabicDescription: "إسكالوب الدجاج يقدم مع صلصة مارينارا و البطاطس المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/ESCALOP.JPEG"
       },
       {
         id: 19,
@@ -274,7 +265,7 @@ export const menuData = {
         price: "500,000 LBP",
         englishDescription: "200g Home made Beef Pate served with Caramelized Onion, Fresh Tomatoes, Lettuce, Pickles, Sauce Cocktail and Fries.",
         arabicDescription: "200 جرام من باتيه لحم البقر المصنوع منزليًا يقدم مع البصل المكرمل والطماطم الطازجة والخس والمخللات وكوكتيل الصلصة والبطاطس المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/BEEFB.JPEG"
       },
       {
         id: 19,
@@ -283,7 +274,7 @@ export const menuData = {
         price: "450,000 LBP",
         englishDescription: "180g Grilled Chicken Breast served with Garlic Mayo Sauce, Iceberg, Pickles and Fries.",
         arabicDescription: "180 جرام صدور دجاج مشوية تقدم مع صلصة المايونيز، الثوم، الخس، المخللات و البطاطس المقلية.",
-        image: "uploads/arancini.jpg"
+        image: "uploads/ham main/CHICKENB.JPEG"
       },
     ]
   },
@@ -373,7 +364,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/fresh/ORANGE.JPEG"
       },
       {
         id: 27,
@@ -382,7 +373,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/fresh/"
       },
       {
         id: 28,
@@ -391,7 +382,7 @@ export const menuData = {
         price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/fresh/MULBERRY.JPG"
       },
             {
         id: 30,
@@ -400,7 +391,7 @@ export const menuData = {
         price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/fresh/MANGO.JPEG"
       },
       {
         id: 31,
@@ -409,7 +400,7 @@ export const menuData = {
         price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/fresh/STRAWBERRY.JPEG"
       },
       {
         id: 29,
@@ -436,7 +427,7 @@ export const menuData = {
         price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/fresh/WATERM.JPEG"
       },
       {
         id: 32,
@@ -445,7 +436,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/fresh/MINTED.JPEG"
       },
     ]
   },
@@ -463,7 +454,7 @@ export const menuData = {
         price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/cocktail/pina.jpg"
       },
       {
         id: 36,
@@ -472,7 +463,7 @@ export const menuData = {
         price: "250,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/cocktail/pinastraw.jpeg"
       },
       {
         id: 37,
@@ -481,7 +472,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/cocktail/"
       },
       {
         id: 45,
@@ -490,7 +481,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/cocktail/jamaica.jpg"
       },
       {
         id: 46,
@@ -499,7 +490,7 @@ export const menuData = {
         price: "150,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/cocktail/ginger.jpeg"
       },
     ]
   },
@@ -517,7 +508,7 @@ export const menuData = {
         price: "150,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/ham hot/espres.jpeg"
       },
       {
         id: 39,
@@ -526,7 +517,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/ham hot/despres.jpeg"
       },
       {
         id: 40,
@@ -535,7 +526,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/ham hot/cuppocino.jpeg"
       },
       {
         id: 41,
@@ -544,7 +535,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/ham hot/late.jpeg"
       },
       {
         id: 42,
@@ -553,7 +544,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/ham hot/icedlate.jpeg"
       },
       {
         id: 43,
@@ -562,7 +553,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/ham hot/hotchoc.jpeg"
       },
       {
         id: 44,
@@ -571,7 +562,7 @@ export const menuData = {
         price: "150,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/ham hot/jasmin.jpeg"
       }
     ]
   },
@@ -589,7 +580,7 @@ export const menuData = {
         price: "100,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/pepsi.jpeg"
       },
       {
         id: 49,
@@ -598,7 +589,7 @@ export const menuData = {
         price: "100,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/pepsid.jpeg"
       },
       {
         id: 50,
@@ -607,7 +598,7 @@ export const menuData = {
         price: "100,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/up.jpeg"
       },
       {
         id: 51,
@@ -616,7 +607,7 @@ export const menuData = {
         price: "100,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/upd.jpeg"
       },
             {
         id: 51,
@@ -625,7 +616,7 @@ export const menuData = {
         price: "100,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/miranda.jpeg"
       },
       {
         id: 52,
@@ -634,16 +625,7 @@ export const menuData = {
         price: "200,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 53,
-        englishTitle: "Water large.",
-        arabicTitle: "مياه كبيرة.",
-        price: "100,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/dark.jpeg"
       },
       {
         id: 54,
@@ -652,16 +634,7 @@ export const menuData = {
         price: "50,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
-      },
-      {
-        id: 55,
-        englishTitle: "Sparkling Water large.",
-        arabicTitle: "مياه غازية كبيرة.",
-        price: "250,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/water.jpeg"
       },
       {
         id: 56,
@@ -670,7 +643,7 @@ export const menuData = {
         price: "150,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/soft/spark.jpeg"
       }
     ]
   },
@@ -688,7 +661,7 @@ export const menuData = {
         price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/shisha/apple.png"
       },
       {
         id: 45,
@@ -697,7 +670,7 @@ export const menuData = {
         price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/shisha/hamod.png"
       },
       {
         id: 45,
@@ -706,7 +679,7 @@ export const menuData = {
         price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/shisha/gum.png"
       },
       {
         id: 45,
@@ -715,7 +688,7 @@ export const menuData = {
         price: "550,000 LBP",
         englishDescription: "",
         arabicDescription: "",
-        image: "uploads/souffle.jpg"
+        image: "uploads/shisha/love.png"
       },
       {
         id: 45,
