@@ -97,33 +97,6 @@ export const menuData = {
         image: "uploads/starters/WINGS.JPEG"
       },
       {
-        id: 5,
-        englishTitle: "Oriental Beef Strips Fillets.",
-        arabicTitle: "شرائح لحم بقري شرقية.",
-        price: "500,000 LBP",
-        englishDescription: "Beef strips mixed with Oriental herbs.",
-        arabicDescription: "شرائح لحم البقر ممزوجة بالأعشاب الشرقية.",
-        image: "uploads/starters/BEEF.JPEG"
-      },
-      {
-        id: 6,
-        englishTitle: "Oriental Chicken Strips.",
-        arabicTitle: "شرائح الدجاج الشرقية.",
-        price: "500,000 LBP",
-        englishDescription: "Grilled Chicken strips mixed with Oriental herbs.",
-        arabicDescription: "شرائح دجاج مشوية ممزوجة بالأعشاب الشرقية.",
-        image: "uploads/starters/CHICKEN.JPEG"
-      },
-      {
-        id: 7,
-        englishTitle: "Shrimps Provincial.",
-        arabicTitle: "قريدس.",
-        price: "600,000 LBP",
-        englishDescription: "Shrimps mixed with Provincial herbs.",
-        arabicDescription: "قريدس ممزوج مع أعشاب محلية.",
-        image: "uploads/starters/SHRIMP.JPG"
-      },
-      {
         id: 7,
         englishTitle: "Dynamite Shrimps.",
         arabicTitle: " قريدس ديناميت.",
@@ -168,24 +141,6 @@ export const menuData = {
         arabicDescription: "قريدس، خضراوات مشكلة تقدم مع الليمون و الزيت المنكه بالاعشاب.",
         image: "uploads/salad/SHRIMP.JPEG"
       },
-      {
-        id: 11,
-        englishTitle: "Chicken Strip Salad.",
-        arabicTitle: "سلطة شرائح الدجاج.",
-        price: "500,000 LBP",
-        englishDescription: "Grilled Chicken Strips, Mixed Greens and Creamy Mayo Dressing.",
-        arabicDescription: " شرائح دجاج مشوية، خضراوات مشكلة و صلصة مايونيز كريمية.",
-        image: "uploads/salad/CHICKEN.JPEG"
-      },
-      {
-        id: 12,
-        englishTitle: "Chicken Ceaser Salad.",
-        arabicTitle: "سلطة سيزر بالدجاج.",
-        price: "500,000 LBP",
-        englishDescription: "Grilled Chicken Strips, Iceberg Lettuce and Caesar Dressing.",
-        arabicDescription: "شرائح دجاج مشوية، خس آيسبرغ و صلصة سيزر.",
-        image: "uploads/salad/CEASER.JPEG"
-      }
     ]
   },
   maincourse: {
@@ -196,49 +151,13 @@ export const menuData = {
     },
     items: [
       {
-        id: 13,
-        englishTitle: "Grilled Chicken Breast.",
-        arabicTitle: "صدور دجاج مشوية.",
-        price: "750,000 LBP",
-        englishDescription: "Chicken Breast Served with Creamy Cajen Sauce and Fries.",
-        arabicDescription: "يُقدم مع صلصة كاجين الكريمية و البطاطس المقلية.",
-        image: "uploads/ham main/GRILLEDCHI.JPEG"
-      },
-      {
-        id: 14,
-        englishTitle: "Grilled Beef Strip.",
-        arabicTitle: "شرائح لحم البقر المشوية.",
-        price: "850,000 LBP",
-        englishDescription: "Beef Strip Served with Creamy Pepper/Mushroom Sauce, Fries.",
-        arabicDescription: "تقدم مع صلصة الفلفل/الفطر الكريمية و البطاطس المقلية.",
-        image: "uploads/ham main/GRILLEDBEEF.JPEG"
-      },
-      {
-        id: 15,
-        englishTitle: "Sea Food Mix Platter.",
-        arabicTitle: "طبق مأكولات بحرية مشكلة.",
-        price: "650,000 LBP",
-        englishDescription: "8 Shrimp pcs, 2 Fish Fillet pcs, 1 Calamari served with Mini Crab Salad, Tartar, Cocktail Sauce and Fries.",
-        arabicDescription: "8 قطع قريدس، 2 قطعة فيليه سمك، 1 كاليماري تقدم مع سلطة الكراب حجم صغير، الطرطور، صلصة الكوكتيل و البطاطس المقلية.",
-        image: "uploads/ham main/SEAFOOD.JPEG"
-      },
-      {
         id: 16,
-        englishTitle: "Shrimp Platter (Spicey).",
-        arabicTitle: "طبق القريدس (حار).",
+        englishTitle: "Shrimp Platter.",
+        arabicTitle: "طبق القريدس.",
         price: "650,000 LBP",
-        englishDescription: "14 Crispy Shrimp pcs served with Pickles, Tartar, Cocktail and Fries.",
-        arabicDescription: "14 قطعة قريدس مقرمش تقدم مع مخلل، طرطور، كوكتيل و بطاطس مقلية.",
+        englishDescription: "10 Crispy Shrimp pcs served with Pickles, Tartar, Cocktail and Fries.",
+        arabicDescription: "10 قطعة قريدس مقرمش تقدم مع مخلل، طرطور، كوكتيل و بطاطس مقلية.",
         image: "uploads/ham main/SHRIMPS.JPEG"
-      },
-      {
-        id: 17,
-        englishTitle: "Crispy Fish Fillet Platter.",
-        arabicTitle: "طبق فيليه السمك المقرمش.",
-        price: "650,000 LBP",
-        englishDescription: "6 Crispy Fish Fillet pcs served with Pickles, Tartar sauce and Fries.",
-        arabicDescription: "6 قطع من فيليه السمك المقرمش تقدم مع المخلل، صلصة الطرطور و البطاطس المقلية.",
-        image: "uploads/ham main/FISH.JPEG"
       },
       {
         id: 18,
@@ -248,33 +167,6 @@ export const menuData = {
         englishDescription: "6 Crispy Chicken pcs served with Pickles, Garlic sauce and Fries.",
         arabicDescription: "6 قطع دجاج مقرمشة تقدم مع المخلل، صلصة الثوم و البطاطس المقلية.",
         image: "uploads/ham main/CRISPY.JPEG"
-      },
-      {
-        id: 19,
-        englishTitle: "Chicken Escalope Platter.",
-        arabicTitle: "شرائح لحم البقر الشرقية.",
-        price: "700,000 LBP",
-        englishDescription: "Chicken Escalop served with Marinara Sauce and Fries.",
-        arabicDescription: "إسكالوب الدجاج يقدم مع صلصة مارينارا و البطاطس المقلية.",
-        image: "uploads/ham main/ESCALOP.JPEG"
-      },
-      {
-        id: 19,
-        englishTitle: "Beef Burger.",
-        arabicTitle: "برغر لحمة.",
-        price: "500,000 LBP",
-        englishDescription: "200g Home made Beef Pate served with Caramelized Onion, Fresh Tomatoes, Lettuce, Pickles, Sauce Cocktail and Fries.",
-        arabicDescription: "200 جرام من باتيه لحم البقر المصنوع منزليًا يقدم مع البصل المكرمل والطماطم الطازجة والخس والمخللات وكوكتيل الصلصة والبطاطس المقلية.",
-        image: "uploads/ham main/BEEFB.JPEG"
-      },
-      {
-        id: 19,
-        englishTitle: "Chicken Breast Burger.",
-        arabicTitle: "برغر دجاج.",
-        price: "450,000 LBP",
-        englishDescription: "180g Grilled Chicken Breast served with Garlic Mayo Sauce, Iceberg, Pickles and Fries.",
-        arabicDescription: "180 جرام صدور دجاج مشوية تقدم مع صلصة المايونيز، الثوم، الخس، المخللات و البطاطس المقلية.",
-        image: "uploads/ham main/CHICKENB.JPEG"
       },
     ]
   },
@@ -310,33 +202,6 @@ export const menuData = {
         price: "300,000 LBP",
         englishDescription: "Add on Strawberry, Banana or Banana 100,000 LBP",
         arabicDescription: "إضافة الفراولة أو الموز أو الموز 100,000 LBP",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 17,
-        englishTitle: "Fondant with Icecream",
-        arabicTitle: "",
-        price: "350,000 LBP",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 18,
-        englishTitle: "Baklava Icecream",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
-        image: "uploads/arancini.jpg"
-      },
-      {
-        id: 18,
-        englishTitle: "Dubai Chocolate",
-        arabicTitle: "",
-        price: "",
-        englishDescription: "",
-        arabicDescription: "",
         image: "uploads/arancini.jpg"
       },
       {
